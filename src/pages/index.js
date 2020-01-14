@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 
 // Styles
-import './styles/style.scss';
+import '../styles/style.css';
 
 
 function Home() {
