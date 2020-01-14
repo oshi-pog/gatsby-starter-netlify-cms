@@ -1,5 +1,5 @@
 import React from 'react';
-import './Testimonials.css';
+import './Testimonials.scss';
 import NicolasImg from './img/nicolas.jpg'
 import OutleryImg from './img/outlery.jpg'
 import UrsusImg from './img/ursus.jpg'

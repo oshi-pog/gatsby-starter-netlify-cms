@@ -1,11 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+// import PropTypes from 'prop-types'
+// import { Link, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet';
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+// import Layout from '../components/Layout'
+// import Features from '../components/Features'
+// import BlogRoll from '../components/BlogRoll'
 
 import NavbarFixed from '../components/NavbarFixed/NavbarFixed'
 import LandingHero from '../components/LandingHero/LandingHero';

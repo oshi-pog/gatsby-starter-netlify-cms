@@ -1,5 +1,5 @@
 import React from 'react';
-import './OurMission.css';
+import './OurMission.scss';
 import joshuaImg from './img/joshua-founder.png'
 import madsImg from './img/mads-founder.png'
 import mortenImg from './img/morten-founder.png'
