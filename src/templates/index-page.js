@@ -18,7 +18,7 @@ import ApplicationSection from '../components/ApplicationSection/ApplicationSect
 import Footer from '../components/Footer/Footer';
 
 //Styles
-import '../styles/style.scss'
+import '../styles/style.css'
 // import "animate.css/animate.min.css";
 
 const IndexPage = () => {

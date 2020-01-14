@@ -1,5 +1,5 @@
 import React from 'react';
-import './WhatWeDo.scss';
+import './WhatWeDo.css';
 import Illustration from '../../img/illustration.svg'
 
 // //Animations component

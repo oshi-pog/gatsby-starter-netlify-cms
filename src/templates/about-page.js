@@ -11,7 +11,7 @@ import ApplicationSection from '../components/ApplicationSection/ApplicationSect
 import Footer from '../components/Footer/Footer';
 
 //Styles
-import '../styles/style.scss'
+import '../styles/style.css'
 
 
 const AboutPage = () => {

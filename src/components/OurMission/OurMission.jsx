@@ -1,12 +1,12 @@
 import React from 'react';
-import './OurMission.scss';
+import './OurMission.css';
 import joshuaImg from './img/joshua-founder.png'
 import madsImg from './img/mads-founder.png'
 import mortenImg from './img/morten-founder.png'
 
 
 //Animations component
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 function OurMission() {
     return (
@@ -14,13 +14,13 @@ function OurMission() {
         <div className="our-mission-text-box">
 
           <div className="what-green-heading">
-          <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
               <h1 className="green-heading-text">Our Mission</h1>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
 
-            <ScrollAnimation animateIn="slideInLeft" >
+            {/* <ScrollAnimation animateIn="slideInLeft" > */}
               <div className="green-heading-line"></div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
           </div>
 
 
@@ -32,13 +32,13 @@ function OurMission() {
         <div className="our-team-text-box">
 
           <div className="what-green-heading">
-          <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
               <h1 className="green-heading-text">Our Team</h1>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
 
-            <ScrollAnimation animateIn="slideInLeft" >
+            {/* <ScrollAnimation animateIn="slideInLeft" > */}
               <div className="green-heading-line"></div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
           </div>
           <p className="what-p">We are an international team, based in the heart of Copenhagen, Denmark.</p>
     
