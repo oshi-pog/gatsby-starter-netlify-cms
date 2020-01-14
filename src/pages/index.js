@@ -1,27 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
 
-import NavbarFixed from '../components/NavbarFixed/NavbarFixed'
-import LandingHero from '../components/LandingHero/LandingHero';
-import LandingGrid from '../components/LandingGrid/LandingGrid';
-import WhatWeDo from '../components/WhatWeDo/WhatWeDo';
-import PortfolioGrid from '../components/PortfolioGrid/PortfolioGrid';
-import Testimonials from '../components/Testimonials/Testimonials';
-import CompensationGrid from '../components/CompensationGrid/CompensationGrid';
-import ApplicationSection from '../components/ApplicationSection/ApplicationSection';
-import Footer from '../components/Footer/Footer';
+// Styles
+import './styles/style.scss';
 
-//Styles
-import '../styles/style.scss'
-// import "animate.css/animate.min.css";
 
-const IndexPage = () => {
+function Home() {
   return (
       <div className="main">
         <Helmet>
@@ -43,18 +28,9 @@ const IndexPage = () => {
 
           </Helmet>
           
-        <NavbarFixed/>
-        <LandingHero/>
-        <LandingGrid/>
-        <WhatWeDo></WhatWeDo>
-        <PortfolioGrid/>
-        <Testimonials/>
-        <CompensationGrid/>
-        <ApplicationSection/>
-        <Footer/>
       </div>
-  )
+
+  );
 }
 
-export default IndexPage
-
+export default Home;

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
+
+$font: 'Poppins', sans-serif;
+
+* {
+    padding:0;
+    margin:0;
+    font-weight:400;
+    font-family:$font;
+}
+
+.main {
+    margin-left:150px;
+    margin-right:150px;
+    max-width:100%;
+}
+
+iframe{
+
+}
+
+// Green heading 
+
+.what-green-heading {
+    position:relative;
+    overflow:hidden;
+}
+
+.green-heading-line {
+    width:50px;
+    border-bottom:3px solid #3ECF7F;
+
+}
+.green-heading-text {
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #3ECF7F;
+}
+
+// Heading
+
+.compensation-grid {
+    .what-h1 {
+        padding-right:20%;
+    }
+}
+.what-h1 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    margin-top:20px;
+    
+    color: #222222;
+    margin-bottom:40px;
+}
+
+.what-p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #222222;
+    padding-right:20%;
+    margin-bottom:40px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .main {
+        margin-left:50px;
+        margin-right:50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    * {
+        padding:0;
+        margin:0;
+        font-weight:400;
+        font-family:$font;
+    }
+    
+    
+    .main {
+        max-width:100%;
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    iframe{
+    
+    }
+    
+    // Green heading 
+    
+    .what-green-heading {
+        position:relative;
+    }
+    
+    .green-heading-line {
+        width:25px;
+        border-bottom:3px solid #3ECF7F;
+    }
+    .green-heading-text {
+        font-size: 18px;
+        line-height: 24px;
+    
+        color: #3ECF7F;
+    }
+    
+    // Heading
+    
+    .compensation-grid {
+        .what-h1 {
+            padding-right:none;
+        }
+    }
+    .what-h1 {
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 26px;
+        margin-top:20px;
+        
+        color: #222222;
+        margin-bottom:20px;
+    }
+    
+    .what-p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+    
+        color: #222222;
+        padding-right:0;
+        margin-bottom:40px;
+    }
+}
