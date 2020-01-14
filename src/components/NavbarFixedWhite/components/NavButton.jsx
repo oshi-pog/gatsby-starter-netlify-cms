@@ -28,7 +28,7 @@ class NavButton extends React.Component {
             
           }}
         />
-        <div className="nav-apply-btn" onClick={this.openForm}>Apply Now </div>
+        <div className="nav-apply-btn" onClick={this.openForm}>Apply Now</div>
         
       </div>
     );
