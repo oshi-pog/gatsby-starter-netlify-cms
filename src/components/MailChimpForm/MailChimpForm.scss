@@ -1,0 +1,82 @@
+@import '../../styles/fonts';
+
+.mailchimp-block {
+    margin-bottom:18px;
+    color:#222222;
+    .mailchimp-message {
+        word-wrap:break-word;
+        max-width:100%;
+        overflow:hidden;
+        text-align:center;
+    }
+    .mailchimp-flex {
+        display:flex;
+        width:400px;
+        max-width:70vw;
+        .mailchimp-email {
+            flex-basis:66.66%;
+            padding:4px;
+            border: 1px solid #222222;
+
+        }
+        .mailchimp-submitBtn {
+            color:#222222;
+            flex-basis:33.33%; 
+            border: 1px solid #222222;
+            border-left:none !important;
+            background-color:transparent !important;
+            font-weight:600;
+            cursor:pointer;
+            transition: background-color 0.1s ease 0s, color 0.1s ease 0s, border-color 0.1s ease 0s, opacity 0.1s ease 0s;
+            &:hover {
+                color:white;
+                background-color:#222222 !important;
+            }
+        }
+    }
+
+}
+// MOBILE
+@media only screen and (max-width: 900px) { 
+    .mailchimp-block {
+        margin-bottom:0;
+        color:#222222;
+
+        .mailchimp-message {
+            word-wrap:break-word;
+            max-width:100%;
+            overflow:hidden;
+            font-size:3vmin;
+            margin-top:4px;
+            text-align:center;        
+        }
+        .mailchimp-flex {
+            display:flex;
+            width:400px;
+            max-width:70vw;
+            .mailchimp-email {
+                flex-basis:66.66%;
+                padding:4px;
+                border: 1px solid #222222;
+                font-size:3vmin;
+    
+            }
+            .mailchimp-submitBtn {
+                color:#222222;
+                font-size:3vmin;
+                flex-basis:33.33%; 
+                border: 1px solid #222222;
+                border-left:none !important;
+                background-color:transparent !important;
+                font-weight:600;
+                cursor:pointer;
+                transition: background-color 0.1s ease 0s, color 0.1s ease 0s, border-color 0.1s ease 0s, opacity 0.1s ease 0s;
+                &:hover {
+                    color:white;
+                    background-color:#222222 !important;
+                }
+            }
+        }
+    
+    }
+}
