@@ -11,6 +11,7 @@ function navbar() {
           <Link href="/" className="logo"><img src={logo}></img></Link>
           <div className="nav-links">
               <Link href="/about"  className="nav-link">About Us</Link> 
+              <Link to="/blog" className="nav-link">Our Blog</Link> 
               <NavButton/>
           </div>
       </div>
