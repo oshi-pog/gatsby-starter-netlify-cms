@@ -6,6 +6,9 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+//Styles
+import '../styles/style.scss'
+
 export const IndexPageTemplate = ({
   image,
   title,
