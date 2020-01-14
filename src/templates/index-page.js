@@ -9,6 +9,8 @@ import BlogRoll from '../components/BlogRoll'
 
 import NavbarFixed from '../components/NavbarFixed/NavbarFixed'
 import LandingHero from '../components/LandingHero/LandingHero';
+import LandingGrid from '../components/LandingGrid/LandingGrid';
+import WhatWeDo from '../components/WhatWeDo/WhatWeDo';
 
 //Styles
 import '../styles/style.scss'
@@ -38,9 +40,9 @@ const IndexPage = () => {
           
         <NavbarFixed/>
         <LandingHero/>
-        {/* <LandingGrid/>
+        <LandingGrid/>
         <WhatWeDo></WhatWeDo>
-        <PortfolioGrid/>
+        {/* <PortfolioGrid/>
         <Testimonials/>
         <CompensationGrid/>
         <ApplicationSection/>

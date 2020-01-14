@@ -1,10 +1,9 @@
 import React from 'react';
-import { DoughnutExample } from './components/Doughnut';
 import './WhatWeDo.scss';
-import Illustration from '../../svgs/illustration.svg'
+import Illustration from '../../img/illustration.svg'
 
-//Animations component
-import ScrollAnimation from 'react-animate-on-scroll';
+// //Animations component
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 function WhatWeDo() {
     return (
@@ -15,13 +14,13 @@ function WhatWeDo() {
         <div className="what-text-box">
 
           <div className="what-green-heading">
-          <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
               <h1 className="green-heading-text">It's a new era of e-commerce</h1>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
 
-            <ScrollAnimation animateIn="slideInLeft" >
+            {/* <ScrollAnimation animateIn="slideInLeft" > */}
               <div className="green-heading-line"></div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
           </div>
 
 

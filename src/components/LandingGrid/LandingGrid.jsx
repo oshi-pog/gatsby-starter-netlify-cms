@@ -1,8 +1,8 @@
 import React from 'react';
 import './LandingGrid.scss';
-import tech from '../../../src/svgs/laptop.svg';
-import crowdfunding from '../../../src/svgs/bullhorn.svg';
-import performance from '../../../src/svgs/money.svg';
+import tech from '../../img/laptop.svg';
+import crowdfunding from '../../img/bullhorn.svg';
+import performance from '../../img/money.svg';
 
 function LandingGrid() {
     return (
