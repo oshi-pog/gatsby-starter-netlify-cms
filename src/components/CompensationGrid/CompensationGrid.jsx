@@ -6,34 +6,34 @@ import KsWhite from './img/ks-white.png'
 import ShWhite from './img/sh-white.png'
 
 //Animations component
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 function CompensationGrid() {
     return (
       <div className="compensation-grid">
         <div className="compensation-green-box">
-        <ScrollAnimation animateIn="pulse" animateOnce={true}>
+        {/* <ScrollAnimation animateIn="pulse" animateOnce={true}> */}
             <img src={GoWhite} alt="Indiegogo Logo" className="compensation-logo logo-1"  alt="whiteone" ></img>
-        </ScrollAnimation>
+        {/* </ScrollAnimation> */}
 
-        <ScrollAnimation animateIn="pulse" animateOnce={true} delay={500} >
+        {/* <ScrollAnimation animateIn="pulse" animateOnce={true} delay={500} > */}
             <img  alt="whitetwo" src={KsWhite} alt="Kickstarter Logo" className="compensation-logo logo-2" ></img>
-        </ScrollAnimation>
+        {/* </ScrollAnimation> */}
 
-        <ScrollAnimation animateIn="pulse" animateOnce={true} delay={1000}>
+        {/* <ScrollAnimation animateIn="pulse" animateOnce={true} delay={1000}> */}
             <img  alt="whitethree" src={ShWhite} alt="Shopify Logo" className="compensation-logo logo-3"></img>
-        </ScrollAnimation>
+        {/* </ScrollAnimation> */}
         </div>
 
         <div className="compensation-text-box">
         <div className="what-green-heading">
-          <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
               <h1 className="green-heading-text">We are committed</h1>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
 
-            <ScrollAnimation animateIn="slideInLeft" >
+            {/* <ScrollAnimation animateIn="slideInLeft" > */}
               <div className="green-heading-line"></div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
         </div>
             <h1 className="what-h1">We Work On A Performance-based Compensation Model</h1>
             <p className="what-p">Our collaboration with our clients in crowdfunding is limited in time but not in performance. It is a risk-free model because we only charge a percentage of the revenues that are directly attributed to our efforts. There are no setup, upfront or hidden fees whatsoever.</p>

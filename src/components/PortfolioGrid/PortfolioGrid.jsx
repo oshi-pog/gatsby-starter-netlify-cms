@@ -2,23 +2,23 @@ import React from 'react';
 import './PortfolioGrid.scss';
 import PortfolioApplicationButton from './components/PortfolioApplicationButton';
 import LastSwabImage from './lastswab-image.png';
-import OutleryImage from './outlery-image.JPG';
+import OutleryImage from './outlery-image.jpg';
 
 //Animations component
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 function PorfolioGrid() {
     return (
       <div className="portfolio-grid">
         <div className="portfolio-text-box">
         <div className="what-green-heading">
-          <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
               <h1 className="green-heading-text">Crowdfunding portfolio</h1>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
 
-            <ScrollAnimation animateIn="slideInLeft" >
+            {/* <ScrollAnimation animateIn="slideInLeft" > */}
               <div className="green-heading-line"></div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
         </div>
 
             <h1 className="what-h1">Have a look at our work </h1>

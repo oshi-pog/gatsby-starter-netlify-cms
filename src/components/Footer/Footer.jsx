@@ -1,9 +1,8 @@
 import React from 'react';
-import footerLogo from '../../../src/svgs/footer-logo.svg';
+import footerLogo from '../../img/footer-logo.svg';
 import './Footer.scss';
 import NavApplicationFormPopup from './components/NavApplicationButton';
 import MailChimpForm from '../MailChimpForm/MailChimpForm'
-import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -12,7 +11,7 @@ function Footer() {
             <img src={footerLogo} className="footer-logo" alt=""></img>
             <MailChimpForm></MailChimpForm>
             <div className="footer-nav-links">
-                <Link to="/about" className="nav-link">About Us</Link> 
+                <a href="/about" className="nav-link">About Us</a> 
                 <NavApplicationFormPopup/>
             </div>
         </div>

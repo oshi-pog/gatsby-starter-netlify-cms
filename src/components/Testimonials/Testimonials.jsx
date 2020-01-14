@@ -4,10 +4,10 @@ import NicolasImg from './img/nicolas.jpg'
 import OutleryImg from './img/outlery.jpg'
 import UrsusImg from './img/ursus.jpg'
 
-import QuoteRight from '../../svgs/quote-right-solid.svg'
+import QuoteRight from '../../img/quote-right-solid.svg'
 
 //Animations component
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function Testimonials() {
@@ -16,21 +16,21 @@ function Testimonials() {
           <img alt="quote" src={QuoteRight} className="testimonials-quote-svg"></img>
         <div className="testimonials-text-box">
         <div className="what-green-heading">
-          <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
               <h1 className="green-heading-text">What our clients are saying</h1>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
 
-            <ScrollAnimation animateIn="slideInLeft" >
+            {/* <ScrollAnimation animateIn="slideInLeft" > */}
               <div className="green-heading-line"></div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
         </div>
           <h1 className="what-h1">Testimonials</h1> 
         </div>
 
           <div className="testimonials-block">
-          <ScrollAnimation animateIn="fadeIn" animateOnce={true} delay={500}>
+          {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true} delay={500}> */}
               <h2>Great experience working with PTD! They did our FB ads for Kickstarter, Indiegogo and our Shopify e-commerce site. Their hands on approach and tireless efforts gave us a huge campaign. We still use them for digital advertising.</h2>
-              </ScrollAnimation>
+              {/* </ScrollAnimation> */}
           </div>
 
         <div className="testimonials-images-grid">

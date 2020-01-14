@@ -30,6 +30,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-mailchimp-subscribe": "^2.1.0",
     "react-typeform-embed": "^0.2.1",
     "uuid": "^3.2.1"
   },
