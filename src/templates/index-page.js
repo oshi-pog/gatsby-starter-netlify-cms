@@ -8,9 +8,11 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 import NavbarFixed from '../components/NavbarFixed/NavbarFixed'
+import LandingHero from '../components/LandingHero/LandingHero';
 
 //Styles
 import '../styles/style.scss'
+// import "animate.css/animate.min.css";
 
 const IndexPage = () => {
   return (
@@ -35,8 +37,8 @@ const IndexPage = () => {
           </Helmet>
           
         <NavbarFixed/>
-        {/* <LandingHero/>
-        <LandingGrid/>
+        <LandingHero/>
+        {/* <LandingGrid/>
         <WhatWeDo></WhatWeDo>
         <PortfolioGrid/>
         <Testimonials/>
